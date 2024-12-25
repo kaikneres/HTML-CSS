@@ -11,6 +11,7 @@
         table {
              width: 500px;
              border-collapse: collapse;
+             position: relative;
         }
 
         td,th {
@@ -30,7 +31,11 @@
             background-color:lightgray;
         }
 
-        
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: lightgray;
+        }
         
         thead ,tfoot{
             background-color: gray;
@@ -179,6 +184,7 @@
         </tfoot>
         <caption>População das Unidades Federativas</caption>
      </table> 
+     
 </body>
 </html>
 

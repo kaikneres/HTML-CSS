@@ -23,6 +23,7 @@
       --cor4:#2fa866;
       --cor5:#1a5c37;
       --cor6:#063d1e;
+      --cor7:#0e7e78;
 
       --fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
       --fonte-destaque:'Bebas Neue', system-ui;
@@ -106,7 +107,7 @@ main h2 {
     color: var(--cor5);
     font-size: 1.3em;
     font-weight: normal;
-    background-image: linear-gradient(to right,var(--cor2),transparent);
+    background-image: linear-gradient(to right,var(--cor7),transparent);
     text-indent: 8px;
 }
 
